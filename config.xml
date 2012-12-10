@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "TodoOnTheGoLite/djizSone/com.github"
+        version   = "0.5.1">
+
+	<!-- versionCode is optional and Android only -->
+
+	<name>Todo OTG Lite</name>
+
+	<description>
+		Liste Todo légère pour toujours l'avoir sous main.
+		Utilise AngularJS et Lawnchair.js
+		Inspiré par TodoMVC
+	</description>
+
+	<author href="https://plus.google.com/u/0/109215287247129864917" email="fantlo@gmail.com">
+		Florian Valence
+	</author>
+
+</widget>
