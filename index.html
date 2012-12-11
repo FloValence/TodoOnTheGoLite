@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-    <title>Todo on the Go</title>
-    <link rel="stylesheet" href="style/base.css">
-    <script src="js/angularjs.js" type="text/javascript"></script>
-    <script src="js/lawnchair.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
+	<title>Todo On The Go Lite</title>
+	<link rel="stylesheet" href="style/base.css">
+	<script src="js/angularjs.js" type="text/javascript"></script>
+	<script src="js/lawnchair.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
 </head>
 <body ng-app="todo">
 
 	<section id="todoapp" ng-controller="TodoCtrl">
 		<header id="header">
-			<h1>Todos V.0.5</h1>
+			<h1>Todo OTG <small>lite</small></h1>
 			<form id="todo-form" ng-submit="addTodo()">
 				<input type="text" id="new-todo" placeholder="Nouvelle Tâche" autofocus autocomplete="off" ng-model="newTodo" >
 			</form>
