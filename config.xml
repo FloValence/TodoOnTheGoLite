@@ -14,7 +14,10 @@
 		Inspiré par TodoMVC
 	</description>
 	
-	<icon src="ressource/logo/logo.png" />
+	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
 	<author href="https://plus.google.com/u/0/109215287247129864917" email="fantlo@gmail.com">
 		Florian Valence
